@@ -45,4 +45,4 @@ $boot2docker up
 <b>Related Links:</b><br>
 [1] <a href="https://docs.docker.com/installation/windows/">Docker for Windows - Official</a><br>
 [2] <a href="http://odewahn.github.io/docker-jumpstart">Docker Jumpstart</a><br>
-[3] <a href="">Docker for Windows - Github</a><br>
+[3] <a href="https://github.com/boot2docker/windows-installer">Docker for Windows - Github</a><br>
