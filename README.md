@@ -60,7 +60,7 @@ To connect the Docker client to the Docker daemon, please set:
 
 Or run: `eval "$(boot2docker shellinit)"`
 ```
-<b>Step 4:</b>
+<b>Step 4:</b> <b>Getting things ready</b>
 ```sh
 dell@DELL3521 /d/docker1.7.1
 $ export DOCKER_HOST=tcp://192.168.59.103:2376
@@ -74,7 +74,39 @@ $ export DOCKER_CERT_PATH='C:\Users\dell\.boot2docker\certs\boot2docker-vm'
 dell@DELL3521 /d/docker1.7.1
 $ export DOCKER_TLS_VERIFY=1
 ```
-```
+<b>Step 5:</b> <b>Running for first time</b>
+```sh
+dell@DELL3521 /d/docker1.7.1
+$ docker run hello-world
+Post http://192.168.59.103:2376/v1.19/containers/create: malformed HTTP response
+ "\x15\x03\x01\x00\x02\x02\x16". Are you trying to connect to a TLS-enabled daem
+on without TLS?
+
+dell@DELL3521 /d/docker1.7.1
+91c95931e552: Already exists
+hello-world:latest: The image you are pulling has been verified. Important: imag
+e verification is a tech preview feature and should not be relied on to provide
+security.552: Extracting     32 B/32 B
+a8219747be10: Extracting    596 B/596 B
+Digest: sha256:aa03e5d0d5553b4c3473e89c8619cf79df368babd18681cf5daeb82aab55838d
+Status: Downloaded newer image for hello-world:latest
+Hello from Docker.fying Checksum
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (Assuming it was not already locally available.)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal. fs layer
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+For more examples and ideas, visit:
+ http://docs.docker.com/userguide/
 ```
 <b>Related Links:</b><br>
 [1] <a href="https://docs.docker.com/installation/windows/">Docker for Windows - Official</a><br>
