@@ -67,6 +67,12 @@ $ export DOCKER_HOST=tcp://192.168.59.103:2376
 
 dell@DELL3521 /d/docker1.7.1
 $ export DOCKER_HOST=tcp://$(boot2docker ip 2>/dev/null):2376
+
+dell@DELL3521 /d/docker1.7.1
+$ export DOCKER_CERT_PATH='C:\Users\dell\.boot2docker\certs\boot2docker-vm'
+
+dell@DELL3521 /d/docker1.7.1
+$ export DOCKER_TLS_VERIFY=1
 ```
 ```
 ```
