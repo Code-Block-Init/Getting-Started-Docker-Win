@@ -60,6 +60,14 @@ To connect the Docker client to the Docker daemon, please set:
 
 Or run: `eval "$(boot2docker shellinit)"`
 ```
+<b>Step 4:</b>
+```sh
+dell@DELL3521 /d/docker1.7.1
+$ export DOCKER_HOST=tcp://192.168.59.103:2376
+
+dell@DELL3521 /d/docker1.7.1
+$ export DOCKER_HOST=tcp://$(boot2docker ip 2>/dev/null):2376
+```
 ```
 ```
 <b>Related Links:</b><br>
