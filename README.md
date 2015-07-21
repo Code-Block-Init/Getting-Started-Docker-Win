@@ -108,6 +108,22 @@ To try something more ambitious, you can run an Ubuntu container with:
 For more examples and ideas, visit:
  http://docs.docker.com/userguide/
 ```
+<b>Step 6:</b> <b>Getting inside...</b>
+```sh
+dell@DELL3521 /d/docker1.7.1
+$ docker run -it ubuntu bash
+root@c28a7a59798d:/# ls
+bin   dev  home  lib64  mnt  proc  run   srv  tmp  var
+boot  etc  lib   media  opt  root  sbin  sys  usr
+root@c28a7a59798d:/# lsb_release -a
+No LSB modules are available.
+Distributor ID: Ubuntu
+Description:    Ubuntu 14.04.2 LTS
+Release:        14.04
+Codename:       trusty
+root@c28a7a59798d:/# echo "Meow Meow"
+Meow Meow
+```
 <b>Related Links:</b><br>
 [1] <a href="https://docs.docker.com/installation/windows/">Docker for Windows - Official</a><br>
 [2] <a href="http://odewahn.github.io/docker-jumpstart">Docker Jumpstart</a><br>
