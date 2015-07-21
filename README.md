@@ -124,6 +124,9 @@ Codename:       trusty
 root@c28a7a59798d:/# echo "Meow Meow"
 Meow Meow
 ```
+<b>Step 7:</b> <b>What's next?</b><br>
+After <a href="https://github.com/dragonwolverines/Getting-Started-Docker-Win/blob/master/exploring.md">exploration</a>, then sign-up for <a href="https://hub.docker.com/">docker hub</a>.
+<br><br>
 <b>Related Links:</b><br>
 [1] <a href="https://docs.docker.com/installation/windows/">Docker for Windows - Official</a><br>
 [2] <a href="http://odewahn.github.io/docker-jumpstart">Docker Jumpstart</a><br>
