@@ -44,4 +44,6 @@ CMD /d/docker1.7.1/try-docker/docker-cow -a
 ```
 ```sh
 $docker build try-docker
+# the build will fail due to docker/hello-world, "but the steps are correct only". This was my 1st attempt.
+# For good experience, try this sample: https://github.com/ashumeow/tutorials/blob/master/docs/windows/step_four.md
 ```
