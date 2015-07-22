@@ -6,4 +6,9 @@ $export DOCKER_CERT_PATH='C:\Users\dell\.boot2docker\certs\boot2docker-vm'
 $export DOCKER_TLS_VERIFY=1
 $mkdir try-docker && cd try-docker
 $touch Dockerfile
+##
+## Type:
+FROM docker/hello-world:latest
+## and save it to Dockerfile
+##
 ```
