@@ -168,4 +168,38 @@ Step 2 : CMD /d/docker1.7.1/test/ -a | cowsay
  ---> 22beccfa8d38
 Removing intermediate container d1174a464993
 Successfully built 22beccfa8d38
+
+dell@DELL3521 /d/docker1.7.1
+$ docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED
+VIRTUAL SIZE
+<none>              <none>              22beccfa8d38        5 minutes ago
+273.8 MB
+ubuntu              latest              d2a0ecffe6fa        13 days ago
+188.4 MB
+centos              latest              7322fbe74aa5        4 weeks ago
+172.2 MB
+docker/whalesay     latest              fb434121fc77        8 weeks ago
+247 MB
+hello-world         latest              91c95931e552        3 months ago
+910 B
+
+dell@DELL3521 /d/docker1.7.1
+$ docker run 22beccfa8d38
+/bin/sh: 1: /d/docker1.7.1/test/: not found
+ _
+<   >
+ -
+    \
+     \
+      \
+                    ##        .
+              ## ## ##       ==
+           ## ## ## ##      ===
+       /""""""""""""""""___/ ===
+  ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~
+       \______ o          __/
+        \    \        __/
+          \____\______/
+
 ```
