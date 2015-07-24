@@ -7,4 +7,8 @@
 [7] Running <a href="https://github.com/nginx/nginx">Nginx</a> locally via <a href="https://github.com/KyleAMathews/docker-nginx">Docker</a> (TODO) <br>
 [8] Running <a href="https://github.com/openstack/nova">Nova</a> locally via <a href="https://github.com/stackforge/nova-docker">Docker</a> (TODO) <br>
 [9] Running <a href="https://console.ng.bluemix.net/">Bluemix</a> via <a href="https://github.com/sbates130272/docker-bluemix">Docker</a> (TODO) <br>
-[10] <a href="https://github.com/dockerfile">Some more fun stuffs to try</a>
+[10] DockerFiles - <a href="https://github.com/dockerfile">Some more fun stuffs</a> (TODO) <br>
+[11] Running CloudFoundry on Bluemix via <a href="https://github.com/bkmartin/cfvendo">Docker</a> (TODO) <br>
+[12] Running Wordpress on Bluemix via <a href="https://github.com/ibmjstart/wp-bluemix-container">Docker</a> (TODO) <br>
+[13] Running Drupal on Bluemix via <a href="https://github.com/ibmjstart/drupal-bluemix-container">Docker</a> (TODO) <br>
+[14] Deploying scalable application on Azure using <a href="https://github.com/timfpark/coreos-azure">Docker</a> and CoreOS (TODO) <br>
