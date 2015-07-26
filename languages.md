@@ -48,4 +48,7 @@ $ sudo apt-get install php5
 $ sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) universe"
 $ sudo apt-get update
 $ sudo apt-get install haskell-platform
+
+For C/C++
+$ sudo apt-get install g++
 ```
