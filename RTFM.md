@@ -17,3 +17,4 @@
 [17] Running AWS EC2 and AWS S3 via <a href="https://github.com/million12/docker-aws">Docker</a>  <br>
 [18] Running Azure CLI via <a href="https://github.com/Azure/azure-cli-docker">Docker</a> <br>
 [19] Running Apache via <a href="https://github.com/bylexus/docker-apache-php">Docker</a> <br>
+[20] <a href="http://eljoujat.github.io/2015/07/09/jenkinsbot.html">How to use Docker to build a Skype Robot controlling Jenkins</a><br>
