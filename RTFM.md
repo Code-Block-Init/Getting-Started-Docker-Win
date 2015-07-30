@@ -1,3 +1,8 @@
+```
+Mixed set of links shared for manual guidance in getting started or whatever... :)
+
+Note: Can't give 100% guarantee that everything will work. ;)
+```
 [1] <a href="http://rogerdudler.github.io/git-guide/">Git starters</a> (strong) <br>
 [2] <a href="http://alvinalexander.com/git/git-cheat-sheet-git-reference-commands">Git cheatsheet</a> (strong) <br>
 [3] <a href="https://docs.docker.com/userguide/">Docker user manual</a> (self-training -- in-progress) <br>
@@ -19,3 +24,4 @@
 [19] Running Apache via <a href="https://github.com/bylexus/docker-apache-php">Docker</a> <br>
 [20] <a href="http://eljoujat.github.io/2015/07/09/jenkinsbot.html">How to use Docker to build a Skype Robot controlling Jenkins</a><br>
 [21] Monitoring Docker at Scale with <a href="http://blog.signalfx.com/monitoring-docker-at-scale-with-signalfx">SignalFx</a> using <a href="https://github.com/lebauce/docker-collectd-plugin">CollectD plugin</a><br>
+[22] Using Google Cloud SDK via <a href="https://registry.hub.docker.com/u/google/cloud-sdk/">Docker</a><br>
