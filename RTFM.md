@@ -18,3 +18,4 @@
 [18] Running Azure CLI via <a href="https://github.com/Azure/azure-cli-docker">Docker</a> <br>
 [19] Running Apache via <a href="https://github.com/bylexus/docker-apache-php">Docker</a> <br>
 [20] <a href="http://eljoujat.github.io/2015/07/09/jenkinsbot.html">How to use Docker to build a Skype Robot controlling Jenkins</a><br>
+[21] Monitoring Docker at Scale with <a href="http://blog.signalfx.com/monitoring-docker-at-scale-with-signalfx">SignalFx</a> using <a href="https://github.com/lebauce/docker-collectd-plugin">CollectD plugin</a><br>
