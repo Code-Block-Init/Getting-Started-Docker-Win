@@ -26,3 +26,4 @@ Note: Can't give 100% guarantee that everything will work. ;)
 [21] Monitoring Docker at Scale with <a href="http://blog.signalfx.com/monitoring-docker-at-scale-with-signalfx">SignalFx</a> using <a href="https://github.com/lebauce/docker-collectd-plugin">CollectD plugin</a><br>
 [22] Using Google Cloud SDK via <a href="https://registry.hub.docker.com/u/google/cloud-sdk/">Docker</a><br>
 [23] Oracle VirtualBox => <a href="https://www.virtualbox.org/wiki/Documentation">Full Manual</a> and <a href="https://www.virtualbox.org/browser/vbox/trunk">Source code</a><br>
+[24] Using openSUSE in <a href="https://github.com/marsmensch/docker_opensuse_11.3">Docker</a> and some <a href="https://github.com/eotchi/dockerize-it">packages</a><br>
