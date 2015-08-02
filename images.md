@@ -13,4 +13,7 @@ $docker pull debian
 
 # For Fedora
 $docker pull fedora
+
+# For openSUSE
+# http://flavio.castelli.name/2013/04/12/docker-and-opensuse/
 ```
